@@ -1,0 +1,82 @@
+body{
+    background-image: url(building.jpg);
+    background-size: contain;  
+}
+#landing{
+    width:50%;
+    margin:auto;
+    padding:15px;
+}
+#banner1, #banner3{
+    z-index:-1;
+    opacity:0.5;
+}
+#banner1, #banner4{
+
+}
+#banner2, #banner3{
+    background-color:lightgray;
+    opacity:0.5;
+}
+#banner2, #banner4{
+    float:right;
+    z-index:-1;
+    opacity:0.5
+}
+#name{
+    color:#fff;
+    z-index: 0;
+    font-family: 'Coda', cursive;
+    font-size:2.5em;
+    text-align: center;
+}
+#job{
+    color:#fff;
+    z-index: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:.8em;
+    text-align: center;
+    padding-bottom:50px;
+}
+ul{
+    padding:0;
+    margin-top:50px;
+    list-style-type: none;
+    text-align: center;
+}
+ul li{
+    color: #fff;
+    z-index: 0;
+    padding:3px;
+    display:inline;
+    font-family: 'Open Sans', sans-serif;
+    font-size:.8em;
+}
+#about{
+    color:#fff;
+    padding:100px;
+    font-family: 'Coda', cursive;
+    font-size:1.5em;
+}
+#container{
+    width:100%;
+    background-color:#cacaca;
+
+}
+#work{
+    padding-left:8.25%;
+    margin:auto;
+}
+.pic:hover{
+    cursor: pointer;
+}
+.caption{
+    display: none;
+    width:45%;
+    font-family: 'Coda', cursive;
+    font-size:1em;
+    color:#fff;
+    background-color:black;
+    padding:10px;
+    margin:30px 0px 30px 0px;
+}
